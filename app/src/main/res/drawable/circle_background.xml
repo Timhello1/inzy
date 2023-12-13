@@ -1,0 +1,17 @@
+<!-- res/drawable/circle_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+
+    <!-- Solid color for the circle -->
+    <solid android:color="#2196F3" />
+
+    <!-- Stroke (border) for the circle -->
+    <stroke
+        android:width="2dp"
+        android:color="#FFFFFF" />
+
+    <!-- Size of the circle -->
+    <size
+        android:width="60dp"
+        android:height="60dp" />
+</shape>

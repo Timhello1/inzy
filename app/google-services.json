@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "211484201016",
+    "project_id": "fir-668e8",
+    "storage_bucket": "fir-668e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211484201016:android:be32b7092a7ebe017dd6cd",
+        "android_client_info": {
+          "package_name": "com.example.inzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211484201016-hehkgr0rdrvtfu77la359cv3n69ptgrv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI59Xoktr4AIAC94A3RDtEQE9M4EUB4rE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211484201016-hehkgr0rdrvtfu77la359cv3n69ptgrv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

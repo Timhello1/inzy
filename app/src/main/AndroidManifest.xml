@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Inzy"
+        tools:targetApi="31">
+        <activity
+            android:name=".GraphResultTogether"
+            android:exported="false" />
+        <activity
+            android:name=".GraphResultScore"
+            android:exported="false" />
+        <activity
+            android:name=".GraphResultTimeN"
+            android:exported="false" />
+        <activity
+            android:name=".GraphResultTime"
+            android:exported="false" />
+        <activity
+            android:name=".ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SecondActvity"
+            android:exported="false" />
+        <activity
+            android:name=".SubWelcome"
+            android:exported="false" />
+        <activity
+            android:name=".MemoryScanWelcome"
+            android:exported="false" />
+        <activity
+            android:name=".ClickTestWelcome"
+            android:exported="false" />
+        <activity
+            android:name=".LetterCancelWelcome"
+            android:exported="false" />
+        <activity
+            android:name=".DigitSubHard"
+            android:exported="false" />
+        <activity
+            android:name=".DigitSubMedium"
+            android:exported="false" />
+        <activity
+            android:name=".DigitSubResults"
+            android:exported="false" />
+        <activity
+            android:name=".TwoListsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MemoryScanHard"
+            android:exported="false" />
+        <activity
+            android:name=".MemoryScanMedium"
+            android:exported="false" />
+        <activity
+            android:name=".MemoryScan"
+            android:exported="false" />
+        <activity
+            android:name=".LetterCancelHard"
+            android:exported="false" />
+        <activity
+            android:name=".LetterCancelMedium"
+            android:exported="false" />
+        <activity
+            android:name=".LetterResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LetterCancel"
+            android:exported="false" />
+        <activity
+            android:name=".ClickTestResult"
+            android:exported="false" />
+        <activity
+            android:name=".ClickTest"
+            android:exported="false" />
+        <activity
+            android:name=".SwitchTrailWelcome"
+            android:exported="false" />
+        <activity
+            android:name=".ReitanWelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwitchTrail"
+            android:exported="false" />
+        <activity
+            android:name=".ReitanTestResult"
+            android:exported="false" />
+        <activity
+            android:name=".Reitan2"
+            android:exported="false" />
+        <activity
+            android:name=".Reitan"
+            android:exported="false" />
+        <activity
+            android:name=".stroopResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StroopTestWelcomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StroopTestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.App.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Sign_up_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

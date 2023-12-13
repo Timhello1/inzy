@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/evgeni_evgeniev_lpkk3wtkc_g_unsplash">
+
+    <!-- GridLayout for cells -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="700dp"
+        android:columnCount="8"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:background="@drawable/border" />
+
+    <!-- TextView for target letter -->
+    <TextView
+        android:id="@+id/targetLetterTextView"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@drawable/border"
+        android:textAlignment="center"/>
+</LinearLayout>

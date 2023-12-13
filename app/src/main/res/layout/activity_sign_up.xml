@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/evgeni_evgeniev_lpkk3wtkc_g_unsplash"
+    tools:context=".Sign_up_Activity">
+
+    <EditText
+        android:id="@+id/signup_email"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="200dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/envelope"
+        android:hint="Email"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/signup_password"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <EditText
+        android:id="@+id/signup_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border"
+        android:drawableLeft="@drawable/baseline_password_24"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:padding="8dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"/>
+
+    <Button
+        android:id="@+id/signup_button"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        app:cornerRadius="30dp" />
+
+    <TextView
+        android:id="@+id/loginRedirectText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="8dp"
+        android:text="Already a user? Log in!"
+        android:textColor="@color/white"
+        android:textSize="18sp"></TextView>
+
+    <ImageButton
+        android:id="@+id/signUpGoogle"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icons8_google_48"
+        android:hint="Sign up with google"
+        android:onClick="signInWithGoogle"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="88dp"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/icons8_facebook_48"
+        android:hint="Sign up with facebook"/>
+
+</LinearLayout>

@@ -1,0 +1,27 @@
+<!-- res/layout/activity_results.xml -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="bold"
+        tools:text="Game Finished!\nCorrect Answers: 5\nIncorrect Answers: 2\nResult: 3" />
+
+    <Button
+        android:id="@+id/goBackMenu"
+        android:layout_width="233dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="20dp"
+        android:text="powrót" />
+
+</LinearLayout>

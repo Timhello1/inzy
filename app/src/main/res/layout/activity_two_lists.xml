@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="150dp"
+    android:background="@drawable/evgeni_evgeniev_lpkk3wtkc_g_unsplash">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView1"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        tools:listitem="@layout/item_list" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="40sp"
+        tools:listitem="@layout/item_list" />
+
+    <TextView
+        android:id="@+id/randomDigitsTextView"
+        android:layout_width="200sp"
+        android:layout_height="40sp"
+        android:layout_below="@id/recyclerView2"
+        android:layout_marginTop="50dp"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/border"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/translationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/randomDigitsTextView"
+        android:layout_marginTop="16dp"
+        android:hint="Enter Translation"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/checkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/translationEditText"
+        android:layout_marginTop="16dp"
+        android:text="Sprawdź"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

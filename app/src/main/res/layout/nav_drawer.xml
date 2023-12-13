@@ -1,0 +1,10 @@
+<!-- nav_drawer.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Add your navigation drawer items here -->
+
+</LinearLayout>

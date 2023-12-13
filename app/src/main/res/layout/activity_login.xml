@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/evgeni_evgeniev_lpkk3wtkc_g_unsplash"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/login_email"
+                android:layout_marginTop="200dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:hint="Email"
+                android:drawableLeft="@drawable/envelope"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:id="@+id/login_password"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/border"
+                android:padding="8dp"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:drawableLeft="@drawable/baseline_lock_24"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="30dp"
+                android:text="Log in"
+                android:id="@+id/login_button"
+                android:textSize="18sp"
+                app:cornerRadius="30dp"/>
+
+            <TextView
+                android:id="@+id/signupRedirectText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="8dp"
+                android:text="Don't have an account? Sign up!"
+                android:textColor="@color/white"
+                android:textSize="18sp"></TextView>
+
+            <ImageButton
+                android:id="@+id/LogInGoogle"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icons8_google_48"
+                android:hint="Login with google"/>
+
+            <ImageButton
+                android:id="@+id/LogInFacebook"
+                android:layout_width="88dp"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/icons8_facebook_48"
+                android:hint="Login with facebook"/>
+
+
+</LinearLayout>
