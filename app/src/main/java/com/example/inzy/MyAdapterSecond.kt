@@ -43,7 +43,7 @@ class MyAdapterSecond(private val context: Context, private val itemList: List<S
                 // Open GraphResultTime activity
                 val intent = Intent(context, GraphResultTimeN::class.java)
 
-                intent.putExtra("text", "Twoje Wyniki Testu Reitan'a") // Use item as the string for the text view
+                intent.putExtra("text", "Twoje Wyniki Testu Reitana") // Use item as the string for the text view
                 intent.putExtra("collectionName", "ReitanTest") // Replace with your actual collection name
 
                 context.startActivity(intent)

@@ -31,7 +31,7 @@
                 android:background="@drawable/border"
                 android:padding="8dp"
                 android:inputType="textPassword"
-                android:hint="Password"
+                android:hint="hasło"
                 android:drawableLeft="@drawable/baseline_lock_24"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"/>
@@ -40,7 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="70dp"
                 android:layout_marginTop="30dp"
-                android:text="Log in"
+                android:text="Zaloguj się"
                 android:id="@+id/login_button"
                 android:textSize="18sp"
                 app:cornerRadius="30dp"/>
@@ -51,7 +51,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:padding="8dp"
-                android:text="Don't have an account? Sign up!"
+                android:text="Nie masz konta? Zarejestruj się!"
                 android:textColor="@color/white"
                 android:textSize="18sp"></TextView>
 
@@ -61,13 +61,6 @@
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/icons8_google_48"
                 android:hint="Login with google"/>
-
-            <ImageButton
-                android:id="@+id/LogInFacebook"
-                android:layout_width="88dp"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/icons8_facebook_48"
-                android:hint="Login with facebook"/>
 
 
 </LinearLayout>

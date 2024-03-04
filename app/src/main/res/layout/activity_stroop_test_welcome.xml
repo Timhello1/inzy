@@ -12,7 +12,7 @@
         android:id="@+id/welcomeMessage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Test polega na stwierdzeniu czy kolor napisu zgadza się z jego zawartością."
+        android:text="Test polega na stwierdzeniu, czy kolor napisu zgadza się z jego zawartością."
         android:textSize="18sp"
         android:textAlignment="center"/>
 
@@ -20,7 +20,7 @@
         android:id="@+id/instructions"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Punktacja opiera się na ilości poprawnych odpowiedzi."
+        android:text="Punktacja opiera się na liczbie poprawnych odpowiedzi."
         android:textSize="18sp"
         android:textAlignment="center"/>
 

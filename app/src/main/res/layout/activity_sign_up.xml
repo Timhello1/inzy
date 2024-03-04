@@ -28,7 +28,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/border"
         android:drawableLeft="@drawable/baseline_lock_24"
-        android:hint="Password"
+        android:hint="hasło"
         android:inputType="textPassword"
         android:padding="8dp"
         android:textColor="@color/white"
@@ -41,7 +41,7 @@
         android:layout_marginTop="30dp"
         android:background="@drawable/border"
         android:drawableLeft="@drawable/baseline_password_24"
-        android:hint="Confirm Password"
+        android:hint="powtórz hasło"
         android:inputType="textPassword"
         android:padding="8dp"
         android:textColor="@color/white"
@@ -52,7 +52,7 @@
         android:layout_width="match_parent"
         android:layout_height="70dp"
         android:layout_marginTop="30dp"
-        android:text="Sign Up"
+        android:text="Zarejestruj"
         android:textSize="18sp"
         app:cornerRadius="30dp" />
 
@@ -62,7 +62,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:padding="8dp"
-        android:text="Already a user? Log in!"
+        android:text="Jesteś już użytkownikiem? Zaloguj się!"
         android:textColor="@color/white"
         android:textSize="18sp"></TextView>
 
@@ -73,12 +73,5 @@
         app:srcCompat="@drawable/icons8_google_48"
         android:hint="Sign up with google"
         android:onClick="signInWithGoogle"/>
-
-    <ImageButton
-        android:id="@+id/imageButton2"
-        android:layout_width="88dp"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/icons8_facebook_48"
-        android:hint="Sign up with facebook"/>
 
 </LinearLayout>
